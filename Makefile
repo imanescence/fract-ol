@@ -6,7 +6,7 @@
 #    By: iait-ouf <aitouflih.iman@gmail.com>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/02/23 14:55:11 by iait-ouf          #+#    #+#              #
-#    Updated: 2025/05/29 11:33:35 by iait-ouf         ###   ########.fr        #
+#    Updated: 2025/05/29 11:50:18 by iait-ouf         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -44,11 +44,11 @@ $(NAME): $(OBJ)
 
 clean:
 	rm -rf $(OBJ)
-	$(MAKE) -C $(MINILIBX_DIR) clean || true
+	$(MAKE) -C $(MINILIBX_DIR) 
 
 fclean: clean
 	rm -rf $(NAME)
-	$(MAKE) -C $(MINILIBX_DIR) clean || true
+	$(MAKE) -C $(MINILIBX_DIR)
 
 re: fclean all
 
