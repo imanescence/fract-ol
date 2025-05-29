@@ -18,7 +18,8 @@ Due to the limitations of MiniLibX, there is no built-in support for high-level 
 🖱️ Implemented Bonus:
 **Zooming is centered** on the mouse cursor position, making exploration more intuitive and interactive as users dive into intricate fractal structures.
 <p align="center">
-  <img src="https://github.com/imanescence/fract-ol/blob/main/img/screen_project.png" alt="Julia Fractal" width="300"/>
+  <img src="https://github.com/imanescence/fract-ol/blob/main/img/screen_project.png" alt="Julia Fractal" width="500"/>
 </p>
-
-_ _ Here is an example of Julia's fractal with these two values : 0,285 and 0,01 _ _
+<p align="center">
+<i>Here is an example of Julia's fractal with these two values : 0,285 and 0,01</i>
+</p>
